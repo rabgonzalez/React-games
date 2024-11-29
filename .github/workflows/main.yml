@@ -39,7 +39,7 @@ jobs:
         username: ${{ vars.HOSTING_USERNAME }}
         host: ${{ vars.HOSTING_PC }}
         key: ${{ secrets.HOSTING_KEY }}
-        script: |
+        script: | 
             docker stop react-games ; 
             docker rm react-games -f ; 
             docker rmi ${{ vars.DOCKERHUB_USERNAME }}/react-games -f ; 
