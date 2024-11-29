@@ -1,0 +1,53 @@
+.juego{
+    margin: auto;
+    margin-top: 100px;
+    max-width: 60%;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(200, 200, 200, 0.2);
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.botones{
+    display: grid;
+    gap: 20px;
+    margin: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #007AFF;
+    color: #007AFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover{
+    transform: translateY(-10px);
+    background-color: #ffa600;
+    color: #ffa600;
+}
+
+.mostrar{
+    color: white;
+}
+
+.mostrar:hover{
+    color: white;
+}
+
+p{
+    margin: auto;
+    width: 50px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    border: 3px solid rgb(200, 200, 200, 0.8);
+}
