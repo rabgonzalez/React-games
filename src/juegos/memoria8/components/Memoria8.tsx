@@ -48,7 +48,7 @@ const Memoria8 = (props: Props) => {
           return <button className="mostrar" value={casilla.id} onClick={() => apostar(casilla.id)}>{casilla.valor}</button>
         })
       }
-      </div>
+      </div> 
       <p>{Math.trunc(contador/2)}</p>
     </div>
   )
