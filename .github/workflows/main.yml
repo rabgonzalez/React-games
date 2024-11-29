@@ -3,7 +3,7 @@ name: Build and Deploy Docker image
 on:
   push:
     branches:
-      - main  # o el nombre de tu rama principal
+      - master  # o el nombre de tu rama principal
 
 
 jobs:
