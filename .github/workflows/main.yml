@@ -44,4 +44,4 @@ jobs:
             docker rm react-games -f ; 
             docker rmi ${{ vars.DOCKERHUB_USERNAME }}/react-games -f ; 
             docker pull ${{ vars.DOCKERHUB_USERNAME }}/react-games
-            docker run --name react-games -d -p 3096:80 ${{ vars.DOCKERHUB_USERNAME }}/react-games 
+            docker run --name react-games -d -p 3096:3000 ${{ vars.DOCKERHUB_USERNAME }}/react-games 
